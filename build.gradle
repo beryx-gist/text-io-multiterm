@@ -19,7 +19,6 @@ ext.textIoMultitermVersion = project.version as String
 repositories {
   jcenter()
   mavenCentral()
-  maven { url 'https://jitpack.io' }
 }
 
 apply plugin: 'application'
@@ -43,6 +42,7 @@ license {
 
 dependencies {
   compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.21'
+  compile 'org.beryx:text-io:3.1.0'
   runtime ('ch.qos.logback:logback-classic:1.1.7')
   testCompile 'junit:junit:4.12'
   testCompile('ch.qos.logback:logback-classic:1.1.7')
@@ -56,3 +56,7 @@ jar {
     }
 }
 mainClassName = 'org.beryx.textio.multiterm.MultiTerm'
+
+startScripts {
+    defaultJvmOpts = ['-Dlogback.configurationFile=logback.xml']
+}
