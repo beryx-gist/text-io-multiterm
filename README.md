@@ -24,5 +24,5 @@ text-io-multiterm
 
 Click on the picture below to see a short animation.
 
-<a href="https://github.com/beryx-gist/text-io-multiterm/raw/master/img/mutiterm.gif"><img src="https://github.com/beryx-gist/text-io-multiterm/raw/master/img/mutiterm-thumb.gif"></a>
+<a href="https://github.com/beryx-gist/text-io-multiterm/raw/master/img/multiterm.gif"><img src="https://github.com/beryx-gist/text-io-multiterm/raw/master/img/multiterm-thumb.gif"></a>
 
